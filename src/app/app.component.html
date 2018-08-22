@@ -1,20 +1,151 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div id="wrapper">
+  <!-- Header -->
+  <header id="header" class="alt">
+    <h1>汽車誌</h1>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" >
+    </div>
+  </header>
+  <!-- Nav -->
+  <nav id="nav">
+    <ul>
+      <li>
+        <a href="#intro" class="active">最酷超跑</a>
+      </li>
+      <li>
+        <a href="#cta">超級跑車</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Main -->
+  <div id="main">
+    <!-- Introduction -->
+    <section id="intro" class="main">
+      <div class="spotlight">
+        <div class="content">
+          <header class="major">
+            <h2>Bugatti（布加迪）</h2>
+          </header>
+          <p>Bugatti（布加迪）是法國最具有特色的超級跑車車廠之一。布加迪以生產世界上最好的及最快的車聞名於世。最原始的布加迪品牌已經在第二次世界大戰後消失。不過戰後此品牌曾經有兩度中興，目前它是大眾集團旗下的一個品牌。 商標小典：汽車品牌布加迪的創始人為Ettore
+            Bugatti，這個LOGO 則有他的父親、一位出色的珠寶設計師和藝術家設計完成的，在Ettore Bugatti 的父親看來，兒子看待汽車就像他審視自己手中珍寶一樣，於是就有了這個外形酷似珠寶的車標，周圍點綴的花邊線則是以早期汽車行駛中的安全線為靈感。
+            代表車款: Veyron(俗名山豬)</p>
+          <ul class="actions">
+            <li>
+              <a href="generic.html" class="button">Learn More</a>
+            </li>
+          </ul>
+        </div>
+        <span class="image">
+          <img src="https://cc.tvbs.com.tw/img/upload/2016/20160202/AP_563140272413.jpg" alt="" />
+        </span>
+      </div>
+      <div class="spotlight">
+        <div class="content">
+          <header class="major">
+            <h2>BMW</h2>
+          </header>
+          <p>I8以創新的Plug-in Hybrid技術傲視車壇。是一輛可插電式油電混合車，內載231匹三汽缸汽油引擎，外加131匹馬力電動馬達，共可提供362匹馬力，0-100km/h加速只需約4.4秒，電子限制的每小時最高速度為250公里（155.3英里）。而BMW
+            i8曾於湯姆·克魯斯主演的動作電影「不可能的任務：鬼影行動」中出現。
+          </p>
+          <ul class="actions">
+            <li>
+              <a href="generic.html" class="button">Learn More</a>
+            </li>
+          </ul>
+        </div>
+        <span class="image">
+          <img src="https://cc.tvbs.com.tw/img/talk/supercar/images/PPP201508/AP_12042418344.jpg" alt="" />
+        </span>
+      </div>
+      <div class="spotlight">
+        <div class="content">
+          <header class="major">
+            <h2>Ferrari</h2>
+          </header>
+          <p>該車於2013年在日內瓦車展上首次亮相。它的設計借鑑了法拉利FXX賽車的測試成果。並計劃將車重控制在1,000公斤以內， 但最終公布的重量為1,255公斤。LaFerrari為限量生產，目前計劃生產499輛。 LaFerrari是首款完全由法拉利自主研發的車型，法拉利測試其最高時速為350公里（220英里）。百公里加速在3秒之內，300公里時速的加速時間在15秒以內。
+          </p>
+          <ul class="actions">
+            <li>
+              <a href="generic.html" class="button">Learn More</a>
+            </li>
+          </ul>
+        </div>
+        <span class="image">
+          <img src="https://cc.tvbs.com.tw/img/talk/supercar/images/PPP201508/laf.jpg" alt="" />
+        </span>
+      </div>
+    </section>
+    <!-- Get Started -->
+    <section id="cta" class="main special">
+      <header class="major">
+        <h2>超級跑車</h2>
+        <p>簡稱超跑，指可以在一般的街道上行駛之非常高性能跑車，合符普通交通安全條例的量產型私家車，能夠在高速度下保持一定的舒適性，並且只需要優秀的業餘級技術與經驗的司機便可以安全地駕駛。代表了生產汽車上技術的成熟和進步，所以各大型車廠多常會有生產一或數款以超跑為號召的名車，更有一些中小型的車廠的產品都以跑車或超跑為標榜。</p>
+      </header>
+      <footer class="major">
+        <ul class="actions special">
+          <li>
+            <a href="generic.html" class="button primary">Get Started</a>
+          </li>
+          <li>
+            <a href="generic.html" class="button">Learn More</a>
+          </li>
+        </ul>
+      </footer>
+    </section>
+  </div>
+  <!-- Footer -->
+  <footer id="footer">
+    <section>
+      <h2>Aliquam sed mauris</h2>
+      <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros.
+        eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+      <ul class="actions">
+        <li>
+          <a href="generic.html" class="button">Learn More</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Etiam feugiat</h2>
+      <dl class="alt">
+        <dt>Address</dt>
+        <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+        <dt>Phone</dt>
+        <dd>(000) 000-0000 x 0000</dd>
+        <dt>Email</dt>
+        <dd>
+          <a href="#">information@untitled.tld</a>
+        </dd>
+      </dl>
+      <ul class="icons">
+        <li>
+          <a href="#" class="icon fa-twitter alt">
+            <span class="label">Twitter</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icon fa-facebook alt">
+            <span class="label">Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icon fa-instagram alt">
+            <span class="label">Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icon fa-github alt">
+            <span class="label">GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icon fa-dribbble alt">
+            <span class="label">Dribbble</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <p class="copyright">&copy; Untitled. Design:
+      <a href="https://html5up.net">HTML5 UP</a>.</p>
+  </footer>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
